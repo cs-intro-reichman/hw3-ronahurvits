@@ -57,9 +57,9 @@ public class Anagram {
         
         String wordEnd="";
         for (int i = 0; i < str.length(); i++) {
-            char current = str.charAt(i);
-            if ((current >= 'A' && current <= 'Z') || (current >= 'a' && current <= 'z') || current== ' ' ) {
-                wordEnd += current;
+            char currentChar = str.charAt(i);
+            if ((currentChar >= 'A' && currentChar <= 'Z') || (currentChar >= 'a' && currentChar <= 'z') || currentChar== ' ' ) {
+                wordEnd += currentChar;
             }
         }
         return wordEnd.toLowerCase();

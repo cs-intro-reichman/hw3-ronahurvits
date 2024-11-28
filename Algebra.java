@@ -85,7 +85,7 @@ public class Algebra {
            for(int i=1;i<=x2;i++){
               sum=plus(sum, x1);
         }}
-        
+		
         return sum;
     }
 
@@ -110,11 +110,8 @@ public class Algebra {
             if (mod(n, 2)==0) {
                 sum=minus(0, sum);
             }}
-        
-            
             return sum;
-    
-    }
+		}
 
     // Returns the integer part of x1 / x2 
     public static int div(int x1, int x2) {
